@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: Epilogue_reg;
+  src: url(fonts/Epilogue-Regular.ttf);
+}
+@font-face {
+  font-family: Epilogue_italic;
+  src: url(fonts/Epilogue-Italic.ttf);
+}
+/*colors*/
+body {
+  background-color: rgb(28, 28, 39);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  font-family: Epilogue_reg;
+  font-size: 2rem;
+  font-weight: 700;
+  color: rgb(251, 214, 214);
+}
+
+article {
+  padding: 1.5rem;
+  padding-top: 3rem;
+  width: 95%;
+  max-width: 27rem;
+  height: 31rem;
+  background-color: rgb(251, 214, 214);
+  border-radius: 1rem;
+  text-align: start;
+  position: relative;
+}
+article h3 {
+  font-family: Epilogue_italic;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: rgb(28, 28, 39);
+  text-decoration: underline;
+  margin-bottom: 0.5rem;
+}
+article h2 {
+  font-family: Epilogue_reg;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: rgb(28, 28, 39);
+  margin-bottom: 2rem;
+}
+article #name {
+  margin-bottom: 3rem;
+  font-size: 1.5rem;
+}
+article img {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  width: 7rem;
+  height: 9rem;
+  border-radius: 0.5rem;
+}
+article a {
+  text-decoration: none;
+}
+article a h2 {
+  font-size: 1.2rem;
+}/*# sourceMappingURL=style.css.map */
